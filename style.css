@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction:row;
+    position: relative;
+}
+
+div {
+    position: relative;
+    padding: 12px;
+    border: solid black;
+    border-radius: 6px;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 115px;
+}
+
+h1 {
+    color: green;
+}
