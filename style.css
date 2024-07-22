@@ -6,17 +6,27 @@ body {
 
 div {
     position: relative;
-    padding: 12px;
     border: solid black;
-    border-radius: 6px;
+}
+
+.title-card {
+    position: absolute;
+    top: 50px;
+    height: 35%;
+    width: 100%;
+    background-color: rgb(140, 140, 140, 0.2);
+    border: none;
 }
 
 .logo {
     position: absolute;
-    top: 50px;
-    left: 115px;
+    left: 35%;
+}
+
+.title {
+    
 }
 
 h1 {
-    color: green;
+    color: #66cc66;
 }
