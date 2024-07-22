@@ -1,32 +1,114 @@
-body {
-    display: flex;
-    flex-direction:row;
-    position: relative;
+@font-face {
+    font-family: breatheFire;
+    src: url(/home/danrobnett/Downloads/breathe_fire/breathe_fire.otf);
 }
 
-div {
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    height: 900px;
+    width: 1330px;
+    margin: 0;
+    /* border: 6px solid rgb(140, 217, 140); */
+}
+
+#graphic {
+    display: flex;
     position: relative;
-    border: solid black;
+    width: auto;
+}
+
+.background-image {
+    height: 100%;
+    width: auto;
 }
 
 .title-card {
     position: absolute;
-    top: 50px;
-    height: 35%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 90px;
+    height: 30%;
     width: 100%;
-    background-color: rgb(140, 140, 140, 0.2);
+    background-color: rgb(0, 0, 0, 0.4);
     border: none;
 }
 
 .logo {
-    position: absolute;
-    left: 35%;
+    height: 112px;
+    width: auto;
 }
 
 .title {
-    
+    font-size: 66px;
+    font-weight:100;
+    color: rgb(140, 217, 140);
+
 }
 
-h1 {
-    color: #66cc66;
+#content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+}
+
+.form1, .form2, .form3 {
+    flex: 1;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border: 10px shadow black;
+}
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.form2 {
+    background-color: white;
+}
+
+.form3 {
+    border-top: 4px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-subsection {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    font-family: breatheFire;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+    font-family: breatheFire;
+}
+
+p {
+    font-size: 24px;
 }

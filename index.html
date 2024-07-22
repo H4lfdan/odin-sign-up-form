@@ -7,18 +7,65 @@
     <title>Odin Sign-Up Form</title>
 </head>
 <body>
-    <div id="graphic">
-        <img class="background-image" src="/home/danrobnett/Pictures/zoltan-tasi-eS1omi9_W58-unsplash.jpg"
-        width="310">
-        <div class="title-card">
-            <img class="logo" src="/home/danrobnett/Pictures/symbol_9089133.png"
-            width="100">
-            <h2 class="title">Greenpaths</h2>
+    <div id="card">
+        <div id="graphic">
+            <img class="background-image" src="/home/danrobnett/Pictures/zoltan-tasi-eS1omi9_W58-unsplash.jpg"
+            width="310">
+            <div class="title-card">
+                <img class="logo" src="/home/danrobnett/Pictures/symbol_9089133.png"
+                width="100">
+                <h1 class="title"><u>Greenpath</u></h1>
+            </div>
         </div>
-    </div>
-    <div id="form">
-        <h1>Fae Portal Service!</h1>
+        <div id="content">
+            <div class='form1'>
+                <h1>Fae Portal Service!</h1>
+                <p>Wanderlust? Romantic getaway? Stuck in traffic? Contact one of our Fae-travel experts
+                    to take a walk on the wild side!
+                </p>
+            </div>
+            <div class="form2">
+                <h1>Off you go!</h1>
+                <form action="example.com/path" method="post">
+                    <div class="input-section">
+                        <div class="input-subsection">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name">
+                        </div>
+                        <div class="input-subsection">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name">
+                        </div>
+                    </div>
 
+                    <div class="input-section">
+                        <div class="input-subsection">
+                            <label for="email">Email</label>
+                            <input type="text" id="user_email" name="email" placeholder="[email protected]">
+                        </div>
+                        <div class="input-subsection">
+                            <label for="phone_number">PhoneNumber</label>
+                            <input type="text" id="phone_number" name="phone-number" placeholder="(***)***-****">
+                        </div>
+                    </div>
+
+                    <div class="input-section">
+                        <div class="input-subsection">
+                            <label for="password">Password</label>
+                            <input type="text" id="password">
+                        </div>
+                        <div class="input-subsection">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="text" id="confirm_password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="form3">
+                <button>Create Account</button>
+            </div>
+    
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
