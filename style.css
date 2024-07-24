@@ -57,7 +57,13 @@ body {
     font-size: 66px;
     font-weight:100;
     color: rgb(140, 217, 140);
+}
 
+.credit {
+    position: absolute;
+    bottom: 2px;
+    font-size: 12px;
+    color: white;
 }
 
 #content {
@@ -105,13 +111,17 @@ form {
     font-family: breatheFire;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, button {
     text-align: center;
     font-family: breatheFire;
 }
 
 p {
     font-size: 24px;
+}
+
+a {
+    color: white;
 }
 
 input:invalid {
