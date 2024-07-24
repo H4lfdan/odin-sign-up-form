@@ -95,6 +95,7 @@ form {
 .input-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .input-subsection {
@@ -111,4 +112,12 @@ h1, h2, h3, p {
 
 p {
     font-size: 24px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: rgb(140, 217, 140);
 }

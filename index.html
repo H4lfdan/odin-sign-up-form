@@ -40,8 +40,8 @@
 
                     <div class="input-section">
                         <div class="input-subsection">
-                            <label for="email">Email</label>
-                            <input type="text" id="user_email" name="email" placeholder="[email protected]">
+                            <label for="email">*Email</label>
+                            <input type="email" id="user_email" name="email" placeholder="[email protected]" required>
                         </div>
                         <div class="input-subsection">
                             <label for="phone_number">PhoneNumber</label>
@@ -51,18 +51,19 @@
 
                     <div class="input-section">
                         <div class="input-subsection">
-                            <label for="password">Password</label>
-                            <input type="text" id="password">
+                            <label for="password">*Password</label>
+                            <input type="text" id="password" minlength="3" maxlength="20" required>
                         </div>
                         <div class="input-subsection">
-                            <label for="confirm_password">Confirm Password</label>
-                            <input type="text" id="confirm_password">
+                            <label for="confirm_password">*Confirm Password</label>
+                            <input type="text" id="confirm_password" minlength="3" maxlength="20" required>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="form3">
                 <button>Create Account</button>
+                <p>Already have an account? <a href="https://www.greenpathtransport.com/login">Log in</a></p>
             </div>
     
         </div>
